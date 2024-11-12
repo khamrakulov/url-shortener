@@ -36,6 +36,4 @@ import { UrlsModule } from './urls/urls.module';
   controllers: [AppController],
   providers: [AppService],
 })
-export class AppModule {
-  constructor() {}
-}
+export class AppModule {}
