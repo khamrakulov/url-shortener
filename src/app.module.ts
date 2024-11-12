@@ -37,11 +37,5 @@ import { UrlsModule } from './urls/urls.module';
   providers: [AppService],
 })
 export class AppModule {
-  constructor() {
-    console.log(process.env.POSTGRES_USERNAME);
-    console.log(process.env.POSTGRES_HOST);
-    console.log(process.env.POSTGRES_PASSWORD);
-    console.log(process.env.POSTGRES_DATABASE);
-    console.log(process.env.POSTGRES_PORT);
-  }
+  constructor() {}
 }
